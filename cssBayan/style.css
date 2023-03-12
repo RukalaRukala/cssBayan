@@ -2,7 +2,7 @@ body {
     background-color: aquamarine;
 }
 
-@media screen and (max-width: 2040px) {
+ @media screen and (max-width: 2040px) {
     .bayan {
        width: 90%;
        margin:auto;
@@ -106,6 +106,54 @@ body {
          height: 12em;
          padding: 2% 2%;
          font-size: 70%;
+         border-bottom: 2px solid grey;
+         margin: 0 auto;
+      }
+
+     .x {
+         width: 0.5em;
+         float: right;
+         visibility: hidden;
+     }
+     img {
+         height: 11em;
+         visibility: hidden;
+         display: none;
+     }
+     .i1 {
+         display: block;
+         visibility: visible;
+         margin: auto;
+         opacity: 1;
+     }
+
+ }
+
+ @media screen and (max-width: 860px) {
+    .bayan {
+        width: 90%;
+        margin: auto;
+     }
+     .text {
+        width: 90%;
+        padding: 2% 2%;
+        font-size: 150%;
+        border-bottom: 2px solid grey;
+        margin: 0 auto;        
+     }
+     .row {
+        width: 90%;
+        height: 1em;
+        padding: 2% 2%;
+        font-size: 150%;
+        border-bottom: 2px solid grey;
+        margin: 0 auto;
+     }
+     .row1 {
+         width: 90%;
+         height: 12em;
+         padding: 2% 2%;
+         font-size: 150%;
          border-bottom: 2px solid grey;
          margin: 0 auto;
       }
